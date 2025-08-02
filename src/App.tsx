@@ -7,9 +7,20 @@
 // import ArrowFunctionalComponentWithPropsType from "./component/ArrowFunctionalComponentWithPropsType.tsx";
 // import CodingFactoryLogo from "./component/CodingFactoryLogo.tsx";
 import {Layout} from "./component/Layout.tsx";
+// import NameChanger from "./component/NameChanger.tsx";
 // import ClassComponentWithState from "./component/ClassComponentWithState.tsx";
 // import FunctionalComponent from "./component/FunctionalComponent.tsx";
-import FunctionalComponentWithState from "./component/FunctionalComponentWithState.tsx";
+// import FunctionalComponentWithState from "./component/FunctionalComponentWithState.tsx";
+
+// import Counter from "./component/Counter.tsx";
+// import CounterButton from "./component/CounterButton.tsx";
+// import CounterWithMoreStates from "./component/CounterWithMoreStates.tsx";
+// import CounterAdvanced from "./component/CounterAdvanced.tsx";
+// import CounterWithCustomHook from "./component/CounterWithCustomHook.tsx";
+// import CounterAdvancedWithCustomHook from "./component/CounterAdvancedWithCustomHook.tsx";
+// import CounterWithReducer from "./component/CounterWithReducer.tsx";
+import CounterWithReducer from "./component/CounterWithReducer.tsx";
+
 
 function App() {
 
@@ -25,7 +36,18 @@ function App() {
      {/*                                          description="This is a description"/>*/}
      {/*   <CodingFactoryLogo/>*/}
      {/*       <ClassComponentWithState/>*/}
-            <FunctionalComponentWithState></FunctionalComponentWithState>
+     {/*       <FunctionalComponentWithState></FunctionalComponentWithState>*/}
+     {/*       <Counter></Counter>*/}
+     {/*       <CounterButton onClick={() => console.log("Clicked!")} label="Click me" />*/}
+            {/*<NameChanger></NameChanger>*/}
+            {/*<CounterWithMoreStates></CounterWithMoreStates>*/}
+            {/*<CounterAdvanced></CounterAdvanced>*/}
+            {/*<CounterWithCustomHook></CounterWithCustomHook>*/}
+            {/*<CounterAdvancedWithCustomHook></CounterAdvancedWithCustomHook>*/}
+            {/*<CounterWithReducer></CounterWithReducer>*/}
+            <CounterWithReducer></CounterWithReducer>
+
+
 
 
 
