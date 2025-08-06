@@ -7,7 +7,7 @@
 // import ArrowFunctionalComponentWithPropsType from "./component/ArrowFunctionalComponentWithPropsType.tsx";
 // import CodingFactoryLogo from "./component/CodingFactoryLogo.tsx";
 import {Layout} from "./component/Layout.tsx";
-// import NameChanger from "./component/NameChanger.tsx";
+import NameChanger from "./component/NameChanger.tsx";
 // import ClassComponentWithState from "./component/ClassComponentWithState.tsx";
 // import FunctionalComponent from "./component/FunctionalComponent.tsx";
 // import FunctionalComponentWithState from "./component/FunctionalComponentWithState.tsx";
@@ -20,7 +20,7 @@ import {Layout} from "./component/Layout.tsx";
 // import CounterAdvancedWithCustomHook from "./component/CounterAdvancedWithCustomHook.tsx";
 // import CounterWithReducer from "./component/CounterWithReducer.tsx";
 // import CounterWithReducer from "./component/CounterWithReducer.tsx";
-import Todo from "./component/Todo/Todo.tsx";
+// import Todo from "./component/Todo/Todo.tsx";
 
 function App() {
 
@@ -39,14 +39,14 @@ function App() {
      {/*       <FunctionalComponentWithState></FunctionalComponentWithState>*/}
      {/*       <Counter></Counter>*/}
      {/*       <CounterButton onClick={() => console.log("Clicked!")} label="Click me" />*/}
-            {/*<NameChanger></NameChanger>*/}
+            <NameChanger></NameChanger>
             {/*<CounterWithMoreStates></CounterWithMoreStates>*/}
             {/*<CounterAdvanced></CounterAdvanced>*/}
             {/*<CounterWithCustomHook></CounterWithCustomHook>*/}
             {/*<CounterAdvancedWithCustomHook></CounterAdvancedWithCustomHook>*/}
             {/*<CounterWithReducer></CounterWithReducer>*/}
             {/*<CounterWithReducer></CounterWithReducer>*/}
-            <Todo></Todo>
+            {/*<Todo></Todo>*/}
 
 
 
