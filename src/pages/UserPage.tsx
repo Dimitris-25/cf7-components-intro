@@ -4,6 +4,10 @@ import {useParams} from "react-router";
 const UserPage = () =>{
     const { userId } = useParams();
 
+// const { searchParams } = useSearchParams();
+// const id = useParams.get("id");
+// const id = useParams.get("name");
+
     useEffect(()=>{
         document.title = `CF7 User id: ${ userId}`;
     }, [userId]);
