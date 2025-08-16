@@ -21,9 +21,12 @@ import NotFoundPage from "./pages/NotFoundPage.tsx";
 import FocusInput from "./components/FocusInput.tsx";
 import UnControlledInput from "./components/UnControlledInput.tsx";
 import ControlledInput from "./components/ControlledInput.tsx";
-import MultiFieldForm from "./components/MultiFieldForm.tsx";
+// import MultiFieldForm from "./components/MultiFieldForm.tsx";
 // import MultiFieldFormWithValidation from "./components/MultiFieldFormWithValidation.tsx";
-import MultiFieldFormWithZodValidation from "./components/MultiFieldFormWithZodValidation.tsx";
+
+// import MultiFieldFormWithZodValidation from "./components/MultiFieldFormWithZodValidation.tsx";
+
+import MultiFieldFormWithReactHook from "./components/MultiFieldFormWithReactHook.tsx";
 // import OnlineStatusPage from "./pages/OnlineStatusPage.tsx";
 
 // import NameChanger from "./components/NameChanger.tsx";
@@ -81,13 +84,10 @@ function App() {
                         <Route element={<RouterLayout />}>
                         {/*<Route path="/" element={<HomePage />}/>*/}
                         {/*<Route index element={<HomePage />}/>*/}
-                        <Route index element={<MultiFieldForm/>}/>
-                        {/*<Route index element={<MultiFieldFormWithValidation/>}/>*/}
-                        <Route index element={<MultiFieldFormWithZodValidation/>}/>
-
+                        {/*<Route index element={<MultiFieldForm/>}/>*/}
                         {/*<Route index element={<MultiFieldFormWithValidation/>}/>*/}
                         {/*<Route index element={<MultiFieldFormWithZodValidation/>}/>*/}
-                        {/*  <Route index element={<MultiFieldFormWithReactHook/>}/>*/}
+                        <Route index element={<MultiFieldFormWithReactHook/>}/>
                           <Route path="users/:userId" element={<UserPage />}/>
                           <Route path="users" element={<UserPage />}/>
                         </Route>
